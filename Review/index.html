@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="build.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <title>Reviews</title>
+</head>
+<body>
+    <main class="min-h-[100vh] grid place-items-center box-border">
+        <section class="w-[80vh]">
+            <div class="text-center mb-[4rem]">
+                <h2 class="font-bold text-[35px] tracking-wider">Our Reviews</h2>
+                <div class="bg-blue-400 h-[0.25rem] w-[10rem] ml-auto mr-auto"></div>
+            </div>
+
+            <article class="review bg-white items-center transition-all ease-in duration-300 pl-[32px] pr-[32px] pt-[24px] pb-[24px] shadow-md hover:shadow-lg dark:hover:shadow-2xl mb-6">
+                <div class="img-container relative w-[150px] h-[150px] rounded-[50%] m-[0_auto] mb-[1.5rem]
+                after:font-extrabold after:absolute after:top-0 after:left-0 after:w-[2.5rem] after:h-[2.5rem] after:grid after:items-center after:rounded-[50%] after:translate-y-[25%] after:bg-blue-600 after:text-white
+                after:content-[\f10e] before:content-[``] before:h-[100%] before:w-[100%] before:bg-blue-600 before:absolute before:top-[-0.25rem] before:right-[-0.25rem] before:rounded-[50%]">
+                    <img src="person-1.jpeg" id="person-img" class="w-[100%] block h-[100%] object-cover rounded-[50%]">
+                </div>
+                <div class="grid justify-center mb-5">
+                    <h2 class="font-bold tracking-wider leading-6 mb-2" id="author">Nur Araf Shishir</h2>
+                    <p class="text-blue-600" id="job">WEB DEVELOPER</p>
+                </div>    
+                <p class="text-blue-400" id="text">Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Reprehenderit, consequuntur ut
+                dolor dolore voluptate neque aliquid ducimus, e
+                xcepturi, atque laudantium porro nihil. Fuga cumque
+                facere illum! Minima ipsum rerum alias.</p>
+
+                <div class="flex justify-center mb-[14px] mt-[14px]">
+                    <div><i class="fas fa-chevron-left mr-3 text-blue-400 hover:text-blue-600 ease-in duration-300" id="prebtn"></i></div>
+                    <div><i class="fas fa-chevron-right mr-3 text-blue-400 hover:text-blue-600 ease-in duration-300" id="nextbtn"></i></div>
+                </div>
+                <span class="flex justify-center"><button id="randombtn" class="bg-blue-100 text-blue-700 p-2 rounded border-blue-800 border-[2px] hover:bg-blue-400 ease-in duration-500 leading-3">Surprise Me</button></span>
+
+            </article>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
